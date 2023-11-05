@@ -1,24 +1,20 @@
-# Compiled class file
-*.class
+# dependencies
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+package-lock.json
 
-# Log file
-*.log
+# production
+/dist
 
-# BlueJ files
-*.ctxt
+# misc
+.DS_Store
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# umi
+/src/.umi
+/src/.umi-production
+/src/.umi-test
+/.env.local
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# vscode
+/.vscode

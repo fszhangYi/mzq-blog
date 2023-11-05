@@ -1,0 +1,8 @@
+{
+  "name": "mzq-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fszhangYi/mzq-blog.git",
+  "author": "Qi <92540319+fszhangYi@users.noreply.github.com>",
+  "license": "MIT"
+}
