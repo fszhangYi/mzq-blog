@@ -15,4 +15,4 @@ jobs:
           curl -X POST \
             -H "Content-Type: application/json" \
             -d '{"msg": "success"}' \
-            http://172.20.10.7:9999
+            http://123.207.200.27/build/
