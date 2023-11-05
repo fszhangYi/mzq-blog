@@ -1,14 +1,17 @@
 {
   "private": true,
-  "author": "Qi <92540319+fszhangYi@users.noreply.github.com>",
+  "author": "muzhongqing",
+  "keywords": "blog",
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "cmt": "node ./cmt.js"
   },
   "dependencies": {
+    "shelljs": "^0.8.5",
     "umi": "^4.0.87"
   },
   "devDependencies": {
