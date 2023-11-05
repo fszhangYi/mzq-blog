@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
       res.end('Data received successfully');
     });
   } else {
-    console.log('okk');
+    fs.appendFileSync('./log.log', 'get\n');
     res.statusCode = 200;
     res.end('get');
   }
