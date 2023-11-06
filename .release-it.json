@@ -1,0 +1,15 @@
+{
+    "git": {
+        "tagName": "v${version}"
+    },
+    "github": {
+        "release": false
+    },
+    "npm": {
+        "publish": false
+    },
+    "hooks": {
+        "after:git:release": "echo 'Released ${name} v${version}.'"
+    },
+    "increment": "patch"
+}

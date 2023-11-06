@@ -9,9 +9,11 @@
     "setup": "umi setup",
     "start": "npm run dev",
     "cmt": "node ./cmt.js",
-    "update":"git add . && git commit --amend --no-edit && git push origin HEAD -f"
+    "update": "git add . && git commit --amend --no-edit && git push origin HEAD -f",
+    "release": "npx release-it"
   },
   "dependencies": {
+    "release-it": "^16.2.1",
     "shelljs": "^0.8.5",
     "umi": "^4.0.87"
   },
