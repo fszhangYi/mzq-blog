@@ -8,7 +8,8 @@
     "postinstall": "umi setup",
     "setup": "umi setup",
     "start": "npm run dev",
-    "cmt": "node ./cmt.js"
+    "cmt": "node ./cmt.js",
+    "update":"git add . && git commit --amend --no-edit && git push origin HEAD -f"
   },
   "dependencies": {
     "shelljs": "^0.8.5",
