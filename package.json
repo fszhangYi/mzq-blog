@@ -1,7 +1,7 @@
 {
-  "private": true,
-  "author": "muzhongqing",
+  "version": "0.0.1",
   "keywords": "blog",
+  "author": "muzhongqing",
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
@@ -9,7 +9,7 @@
     "setup": "umi setup",
     "start": "npm run dev",
     "cmt": "node ./cmt.js",
-    "update": "git add . && git commit --amend --no-edit && git push origin HEAD -f",
+    "update": "git add . && git commit --amend --no-edit && git push origin master -f",
     "release": "npx release-it"
   },
   "dependencies": {
@@ -23,5 +23,5 @@
     "@types/react-dom": "^18.0.11",
     "typescript": "^5.0.3"
   },
-  "version": "0.0.1"
+  "private": true
 }
